@@ -206,19 +206,21 @@ height: 100px;
     margin: 10px;
    border-radius: 15px;
    display: flex;
+   justify-content: flex-start;
   
    
 
   }
 
  
-
-   .container .left .img,.container .right .img{
-  background-color: black;
-  width: 500%;
+  .container .left .img, .container .right .img{
+    min-width: 40%;
+  
    
 
   }
+
+  
 
   .container .left .img {
     background: url('./left-img.jpg');
@@ -238,7 +240,7 @@ height: 100px;
   div[class='container'] p{
     padding: 12px;
     margin-top: 9%;
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 25px;
     
   }

@@ -1,17 +1,13 @@
-const p = document.getElementById('about');
-console.log(p);
-
-// let text = p.innerText;
-// console.log(text);
-// console.log(text.length);
-// p.innerText ="";
+const p_one = document.getElementById('one');
+const p_two = document.getElementById('two');
+// console.log(p);
 
 
 
 
 
 // Function to simulate typing effect
-function typeText() {
+function typeText(p) {
     // const text = "This is a typing effect example.";
     const text =  p.innerText;
     p.innerText ="";
@@ -30,5 +26,6 @@ function typeText() {
 }
 
 // Call the typing effect function
-typeText();
+typeText(p_one);
+typeText(p_two);
 
