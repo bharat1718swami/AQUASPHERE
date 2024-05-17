@@ -156,7 +156,7 @@ height:80px;
     display: flex;
     align-items: center;
     list-style: none;
-    margin-right: 30px;
+    margin-right: 60px;
   }
 
   .navigation .navbar ul a{
@@ -310,10 +310,12 @@ i{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: transparent;
-  /* min-width: 10px; */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* background-color: transparent; */
+  width: 100px;
+  background-color: rgb(0 0 0 / 20%);
   z-index: 1;
+  color: white;
+  /* border: 2px solid white; */
 }
 
 /* Show the dropdown menu on hover */
@@ -324,7 +326,7 @@ i{
 
 /* Dropdown links */
 .dropdown-content a {
-  color: black;
+  width: 100%;
   padding: 5px 0px;
   text-decoration: none;
   display: block;
